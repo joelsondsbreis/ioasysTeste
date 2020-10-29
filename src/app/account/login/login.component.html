@@ -1,0 +1,25 @@
+<div class="form-body">
+  <img src="../../../assets/logo.png" class="logo-ioasys">
+  <div class="content">
+      <div class="bem-vindo">
+          <mat-card-title>BEM-VINDO AO <br/> EMPRESAS</mat-card-title>
+      </div>
+      <p class="lorem-ipsum">
+          Lorem ipsum dolor sit amet <br />consectetur adipisicing elit. Nunc accumsan</p>
+      <div class="form-center">
+          <div class="example-form">
+              <mat-form-field class="line-email">
+                  <mat-label class="email">Email</mat-label>
+                  <input type="email" matInput placeholder="" value="" [(ngModel)]="login.email" required />
+                  <mat-icon class="icon-email" matSuffix>email</mat-icon>
+              </mat-form-field>
+              <mat-form-field class="line-senha">
+                  <mat-label class="senha">Senha</mat-label>
+                  <input type="password" matInput placeholder="" [(ngModel)]="login.password" required />
+                  <mat-icon  class="icon-senha" matSuffix>lock</mat-icon>
+              </mat-form-field>
+              <button  class="mat-button" type="button" mat-button color="primary" (click)="onSubmit()">ENTRAR</button>
+          </div>
+      </div>
+  </div>
+</div>

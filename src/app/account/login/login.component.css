@@ -1,0 +1,126 @@
+
+
+.example-card {
+  max-width: 400px;
+}
+
+.center-content {
+  text-align: -webkit-center;
+  margin-top: 100px;
+}
+
+.example-form {
+  width: 21.938rem;
+  height: 0.122rem;
+
+}
+
+.line-email{
+  width: 21.938rem;
+  height: 0.122rem;
+  margin-top: 10px;
+}
+
+.line-senha{
+  width: 21.938rem;
+  height: 0.122rem;
+  margin-top: 30px;
+
+}
+
+.mat-button {
+  width: 20.25rem;
+  height: 3.3rem;
+  border-radius: 3.6px;
+  color: white;
+  background-color: #57BBBC;
+  margin-top: 10%;
+}
+
+.bem-vindo {
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--charcoal-grey);
+  margin-top: 3.188rem;
+
+}
+
+.lorem-ipsum {
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: -0.25px;
+  text-align: center;
+  color: #515058;
+  margin-top: 5px;
+
+}
+
+.email {
+  width: 3rem;
+  height: 1.5rem;
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.25px;
+}
+
+.senha {
+  width: 3rem;
+  height: 1.5rem;
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.25px;
+}
+
+.logo-ioasys {
+  width: 18.438rem;
+  height: 4.5rem;
+  object-fit: contain;
+}
+
+.form-center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-body {
+  text-align: center;
+  height: 500px;
+  min-width: 500px;
+  padding-top: 14.438rem;
+}
+
+.icon-senha {
+  width: 1.625rem;
+  height: 1.625rem;
+  object-fit: contain;
+  color: #EF5781;
+}
+
+.icon-email {
+  width: 0.975rem;
+  height: 0.691rem;
+  border: solid 0.7px var(--medium-pink);
+  background-color: var(--medium-pink);
+  color: #EF5781;
+}
